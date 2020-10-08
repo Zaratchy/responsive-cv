@@ -1,0 +1,176 @@
+/*global*/
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+h1 {
+  font-size: 40px;
+  text-transform: uppercase ;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+h3 {
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+/*Header*/
+
+header {
+  background-image: url(https://guillaumeb.com/_include/img/slider-images/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 230px;
+}
+header h1 {
+  padding-top: 180px;
+}
+header p {
+  font-size: 25px;
+}
+
+/*Nav*/
+
+nav ul li a {
+  color: #fff;
+  margin: 20px 30px 10px 10px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  margin-top: 20px;
+}
+nav ul li a:hover {
+  color: darkgray;
+}
+
+
+/*Réseaux*/
+#reseaux { 
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+#reseaux a {
+  color: #000;
+  margin: 0px 15px 0px 15px;
+}
+
+/*About*/
+.about {
+  width: 100%;
+  margin: auto;
+}
+.photo-and-text {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.about p {
+  text-align: center;
+  margin-top: 70px;
+}
+.about img {
+  margin: 35px;
+}
+
+/*Skill*/
+.columns {
+  display: flex;
+  justify-content: center;
+}
+.column {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.tools-bar {
+  width: 300px;
+  border: 1px solid #000;
+  border-radius: 5%;
+  background-color: rgb(29, 121, 133);
+  margin: 20px;
+}
+.tool-bar {
+  width: 150px;
+  border: 1px solid #000;
+  background-color: rgb(8, 48, 44);
+}
+.tool-bar p {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*Expériences*/
+#experiences {
+  margin: 50px;
+}
+.experiences {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 2%;
+  margin: 20px;
+  background-color: rgb(102, 144, 192);
+  width: 300px;
+  text-align: center;
+}
+.experience ul {
+  padding-left: 0px;
+}
+.date {
+  color: aliceblue;
+  margin: 0px 0px 10px 0px ;
+}
+
+/*Certificates*/
+.certificates {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.certificate {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 2%;
+  margin: 20px;
+  background-color: rgb(235, 152, 75);
+  width: 300px;
+  text-align: center;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  background-color: rgb(85, 81, 81);
+  color: #fff;
+}
+.coordonates {
+  display: flex;
+  justify-content: center;
+}
+.parts{
+  margin: 50px;
+
+}
