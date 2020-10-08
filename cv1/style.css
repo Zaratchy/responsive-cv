@@ -1,169 +1,77 @@
-/*global*/
-a {
-  list-style-type: none;
-  text-decoration: none;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-h1 {
-  font-size: 40px;
-  text-transform: uppercase ;
-  text-align: center;
-}
-h2 {
-  text-transform: uppercase;
-  text-align: center;
-}
-h3 {
-  color: red;
-  text-transform: uppercase;
-  text-align: center;
-}
-h4 {
-  text-align: center;
-}
-li {
-  list-style-type: none;
-}
+
 /*Header*/
+nav {
+  height: 30px;
+  background-color: brown;
+  margin: 20px;
+  width: 30px;
+  visibility: hidden;
+}
 
 header {
-  background-image: url(https://guillaumeb.com/_include/img/slider-images/home.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  text-align: center;
-  padding-bottom: 280px;
-}
-header h1 {
-  padding-top: 180px;
-}
-header p {
-  font-size: 25px;
+  height: 100px;
+  background-color: brown;
+  margin: 20px;
+  display: flex;
 }
 
-/*Nav*/
-
-nav ul li a {
-  color: #fff;
-  margin: 20px 30px 10px 10px;
-}
-nav ul {
-  float: right;
-}
-nav ul li {
-  float: left;
-  margin-top: 20px;
-}
-nav ul li a:hover {
-  color: darkgray;
-}
-
-/*Réseaux*/
-.reseaux { 
-  margin: 20px 0px 20px 0px;
-  text-align: center;
-}
-.reseaux a {
-  color: #000;
-  margin: 0px 15px 0px 15px;
-}
-
-/*About*/
-.about {
-  width: 100%;
-  margin: auto;
-}
-.photo-and-text {
-  width: 70%;
-  margin: auto;
-}
-
-.about p {
-  width: 500px;
-  float: left;
-  margin-top: 70px;
-}
-.about img {
-  margin: 35px;
-}
 .photo{
-  float: left;
-  
-}
-.clear{
-  clear: both;
-}
-
-/*Skill*/
-.column {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.tools-bar {
-  float: left;
-  width: 300px;
-  border: 1px solid #000;
-  border-radius: 5%;
-  background-color: rgb(29, 121, 133);
+  background-color: brown;
+  height: 100px;
   margin: 20px;
 }
-.tool-bar {
-  width: 150px;
-  border: 1px solid #000;
-  background-color: rgb(8, 48, 44);
-}
-.tool-bar p {
-  font-size: 10px;
-  font-weight: bold;
-  color: #fff;
-}
+
 
 /*Expériences*/
-.experiences {
-  margin: 0 100px 0 100px;
-}
-.experience {
-  float: left;
-  border: 1px solid #000;
-  border-radius: 2%;
+
+#experiences {
+  height: 100px;
+  background-color: rgb(1, 5, 9);
   margin: 20px;
-  background-color: rgb(102, 144, 192);
-  width: 300px;
-  text-align: center;
-  padding-bottom: 50px;
-}
-.experience ul {
-  padding-left: 0px;
-}
-.date {
-  color: aliceblue;
-  margin: 0px 0px 10px 0px ;
 }
 
 /*Certificates*/
-.certificates {
-  margin: 0 20% 0 20%;
-}
-.certificate {
-  float: left;
-  border: 1px solid #000;
-  border-radius: 2%;
-  margin: 20px;
+
+#certificates {
+  height: 100px;
   background-color: rgb(235, 152, 75);
-  width: 300px;
-  text-align: center;
+  margin: 20px;
 }
 /*Footer*/
 footer {
-  text-align: center;
   background-color: rgb(85, 81, 81);
-  color: #fff;
+  height: 100px;
+  margin: 20px;
 }
-.coordonates {
-  width: 100%;
-  margin-left: 33%;
-  margin-right: 33%;
+
+
+@media screen and (max-width: 768px) {
+
+  header {
+    background-color: rgb(47, 54, 107);
+    width: 400px;
+  }
+
+  .photo{
+    background-color: rgb(46, 12, 12);
+    width: 400px;
+  }
+  #experiences {
+    background-color: rgb(172, 150, 150);
+    width: 400px;
+  }
+  #certificates {
+    background-color: rgb(233, 156, 156);
+    width: 400px;
+  }
+  footer {
+    background-color: rgb(238, 6, 6);
+    width: 400px;
+  }
 }
-.parts{
-  float: left;
-  padding: 0 20px 0 20px;
-}
+
